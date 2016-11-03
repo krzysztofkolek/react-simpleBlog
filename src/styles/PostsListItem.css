@@ -1,0 +1,16 @@
+.postslistitem-component {
+  border: 1px dashed #f00;
+}
+
+.post-title {
+  font-weight: bold;
+  color: red;
+}
+
+.post-body {
+
+}
+
+.post-title:hover {
+  color: blue;
+}
