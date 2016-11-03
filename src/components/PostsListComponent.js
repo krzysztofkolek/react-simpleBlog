@@ -7,7 +7,6 @@ import PostsListItemComponent from './PostsListItemComponent.js'
 
 require('styles/PostsList.css');
 
-
 export class PostsListComponent extends React.Component {
   //#region constructor
   constructor(props){
@@ -46,7 +45,6 @@ export class PostsListComponent extends React.Component {
       return <PostsListItemComponent title={post.title} body={post.body}
                                      postId={post.id}
                                      onTitleClick={self.onTitleClick.bind(self, post.id)}
-
                                      key={post.id}
                                      />
                                  });
